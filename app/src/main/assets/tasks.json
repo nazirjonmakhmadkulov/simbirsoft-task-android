@@ -16,14 +16,14 @@
   {
     "id": 3,
     "date_start": 1734247800000,
-    "date_finish": 1734247800000,
+    "date_finish": 1734251400000,
     "name": "My task 3",
     "description": "task description"
   },
   {
     "id": 4,
     "date_start": 1734694200000,
-    "date_finish": 1734694200000,
+    "date_finish": 1734696200000,
     "name": "My task 4",
     "description": "task description"
   }
