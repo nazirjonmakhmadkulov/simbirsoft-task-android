@@ -5,6 +5,7 @@
         <item name="calendarBackgroundColor">@color/md_theme_dark_calendar_background</item>
         <item name="hintTextViewColor">@color/md_theme_dark_outline</item>
         <item name="android:statusBarColor">@color/md_theme_dark_calendar_background</item>
+        <item name="android:windowLightStatusBar">false</item>
 
         <item name="colorPrimary">@color/md_theme_dark_primary</item>
         <item name="colorOnPrimary">@color/md_theme_dark_onPrimary</item>

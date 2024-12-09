@@ -5,6 +5,7 @@
         <item name="calendarBackgroundColor">@color/md_theme_light_calendar_background</item>
         <item name="hintTextViewColor">@color/md_theme_light_outline</item>
         <item name="android:statusBarColor">@color/md_theme_light_calendar_background</item>
+        <item name="android:windowLightStatusBar">true</item>
 
         <item name="colorPrimary">@color/md_theme_light_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
