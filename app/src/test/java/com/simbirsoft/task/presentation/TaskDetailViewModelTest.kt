@@ -4,7 +4,7 @@ import com.simbirsoft.task.domain.model.Task
 import com.simbirsoft.task.domain.useCases.GetTaskByIdUseCase
 import com.simbirsoft.task.domain.useCases.RemoveTaskUseCase
 import com.simbirsoft.task.presentation.utils.MainDispatcherRule
-import com.simbirsoft.task.presentation.viewModels.TaskDetailsViewModel
+import com.simbirsoft.task.presentation.taskDetails.TaskDetailsViewModel
 import io.mockk.MockKAnnotations
 import io.mockk.Runs
 import io.mockk.coEvery

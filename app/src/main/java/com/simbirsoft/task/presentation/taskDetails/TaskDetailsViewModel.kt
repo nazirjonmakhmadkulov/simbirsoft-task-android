@@ -1,4 +1,4 @@
-package com.simbirsoft.task.presentation.viewModels
+package com.simbirsoft.task.presentation.taskDetails
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

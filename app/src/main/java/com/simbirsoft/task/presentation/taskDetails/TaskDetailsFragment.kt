@@ -1,4 +1,4 @@
-package com.simbirsoft.task.presentation.fragments
+package com.simbirsoft.task.presentation.taskDetails
 
 import android.content.res.ColorStateList
 import android.os.Bundle
@@ -18,7 +18,6 @@ import com.simbirsoft.task.R
 import com.simbirsoft.task.common.toFormatLocalDateTime
 import com.simbirsoft.task.databinding.FragmentTaskDetailsBinding
 import com.simbirsoft.task.domain.model.Task
-import com.simbirsoft.task.presentation.viewModels.TaskDetailsViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 

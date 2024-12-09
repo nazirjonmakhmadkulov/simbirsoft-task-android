@@ -1,4 +1,4 @@
-package com.simbirsoft.task.presentation.fragments
+package com.simbirsoft.task.presentation.taskList
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,12 +11,10 @@ import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
 import com.simbirsoft.task.databinding.FragmentTaskListBinding
 import com.simbirsoft.task.domain.model.Task
-import com.simbirsoft.task.presentation.viewModels.TaskListViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 import java.time.LocalDate
 import androidx.lifecycle.repeatOnLifecycle
-import kotlin.collections.listOf
 
 @AndroidEntryPoint
 class TaskListFragment : Fragment() {
@@ -53,11 +51,11 @@ class TaskListFragment : Fragment() {
         }
 
         binding.taskView.onTaskClickListener = { task ->
-            findNavController().navigate(TaskListFragmentDirections.toTaskDetailsFragment(task.id))
+            findNavController().navigate(TaskListFragmentDirections.Companion.toTaskDetailsFragment(task.id))
         }
 
         binding.fab.setOnClickListener {
-            findNavController().navigate(TaskListFragmentDirections.toAddTaskFragment())
+            findNavController().navigate(TaskListFragmentDirections.Companion.toAddTaskFragment())
         }
     }
 
