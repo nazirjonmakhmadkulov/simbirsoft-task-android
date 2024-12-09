@@ -39,6 +39,9 @@ JSON.<br />
 |<img src="/screens/1.png"> | <img src="/screens/2.png"> | <img src="/screens/3.png"> |
 
 
+#### Ссылка для скачивания apk ndroid: https://cloud.mail.ru/public/jgeq/rUKGQbz77
+
+
 ## Описание приложения
 В приложении присутствуют 3 экрана: Список дел по датам, детали задачи, добавление новой задачи<br />
 ## Список дел по датам:
