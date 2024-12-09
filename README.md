@@ -68,3 +68,6 @@ JSON.<br />
 Архитектура - CleanArchitecture + MVVM<br />
 Стек технологий: Room, Hilt, Navigation component, Kotlin Coroutines, Flow, ViewBinding<br />
 Написан unit-тест с использованием JUnit и MockK<br />
+
+## Контакты
+Telegram https://t.me/nazirjon_m
